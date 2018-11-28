@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:padding="16dp">
+        <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp" app:srcCompat="@drawable/ic_people_primary_24dp"
+                android:id="@+id/imageView" android:layout_weight="0" android:scaleType="fitXY"
+                tools:ignore="VectorDrawableCompat"/>
+        <TextView
+                android:text="Mitsuha Miyamizu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/tvNameList" android:layout_weight="0"
+                android:layout_marginLeft="16dp" android:textSize="18sp" android:layout_gravity="center_vertical"
+                android:layout_marginRight="16dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
